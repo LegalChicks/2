@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* src/index.css (Append this) */
+
+.training-page .page-header p {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #d4a01d;
+  font-weight: 500;
+}
+
+.training-layout {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 30px;
+}
+
+.course-list h2 {
+  color: #2c5a3b;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.course-list h2:not(:first-child) {
+  margin-top: 30px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1px solid #eee;
+}
+
+.course-category {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #f0f0f0;
+  color: #555;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.course-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+.course-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+.course-footer {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+.free-tag {
+  background: #f6ffed;
+  border: 1px solid #b7eb8f;
+  color: #389e0d;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+/* Training Sidebar */
+.training-sidebar {
+  align-self: flex-start;
+  position: sticky;
+  top: 20px;
+}
+
+.sidebar-widget {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+.sidebar-widget h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2c5a3b;
+}
+.sidebar-widget p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.webinar-invite {
+  background: #fffbe6;
+  border-left: 5px solid #d4a01d;
+}
+.tesda-promo {
+  background: #e6f7ff;
+  border-left: 5px solid #1890ff;
+}
+.tesda-promo .btn-primary {
+  width: auto;
+  padding: 12px 20px;
+}
