@@ -1,4 +1,4 @@
-            - name: Background Server
+- name: Background Server
   # You may pin to the exact commit or the version.
   # uses: BerniWittmann/background-server-action@fbfaacbe6c290e043ac0cc66c429d22f6eed87e2
   uses: BerniWittmann/background-server-action@v1.1.1
