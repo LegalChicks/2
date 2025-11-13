@@ -1,4 +1,4 @@
-            - name: Setup Coder code-server
+- name: Setup Coder code-server
   # You may pin to the exact commit or the version.
   # uses: jcbhmr/setup-code-server@339fb6c8a1859f0a365c6fc8e3af59a25eb3e74b
   uses: jcbhmr/setup-code-server@v1.0.0
@@ -6,4 +6,5 @@
     # Which version of code-server to install. This defaults to the latest stable release. Use 'edge' to download the latest prerelease, or a 'N.N.N' versions specifier if you wish. Use 'latest' (the default) to download the latest version.
 
     code-server-version: # optional, default is latest
-          
+
+npm i && npm run
